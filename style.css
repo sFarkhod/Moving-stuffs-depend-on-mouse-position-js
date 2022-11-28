@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    paddingstyle: 0;
+}
+
+main {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+#eyes, #eyes img, #eyes_l, #eyes_l img {
+    position: absolute;
+}
+
+
+.eye:nth-child(1) {
+    position: relative;
+    top: -785px;
+    left: -25px;
+}
+
+.eye:nth-child(2) {
+    position: relative;
+    top: -788px;
+    left: 13px;
+}
+
+.eye_l:nth-child(1) {
+    position: relative;
+    top: -752px;
+    left: 230px;
+}
+
+.eye_l:nth-child(2) {
+    position: relative;
+    top: -752px;
+    left: 155px;
+}
